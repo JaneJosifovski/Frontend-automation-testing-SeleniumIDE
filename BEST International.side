@@ -1,0 +1,3180 @@
+{
+  "id": "4bab6052-4f3e-4426-84db-3d390f76ffd0",
+  "version": "2.0",
+  "name": "BEST International",
+  "url": "https://www.best.eu.org",
+  "tests": [{
+    "id": "18647601-0059-4e84-a9af-ab63f39d1d0e",
+    "name": "BEST international",
+    "commands": [{
+      "id": "a1d17a9c-7399-471c-8ff8-49c73d8c622b",
+      "comment": "",
+      "command": "open",
+      "target": "/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d62d6204-14be-4e8e-aa0f-478b47502d5d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c3220c6-b0f8-4dd5-88de-045235b1f167",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Courses",
+      "targets": [
+        ["linkText=Courses", "linkText"],
+        ["css=.main-navigation .menu-item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Courses')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/courses')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9559572-809b-46a3-9007-c714063f985b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=List of courses",
+      "targets": [
+        ["linkText=List of courses", "linkText"],
+        ["css=p:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'List of courses')]", "xpath:link"],
+        ["xpath=//article[@id='content']/div/p[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'list.jsp')])[3]", "xpath:href"],
+        ["xpath=//p[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'List of courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83c2e799-5981-4a8a-aacd-a54f5234f5dc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=here!",
+      "targets": [
+        ["linkText=here!", "linkText"],
+        ["css=.alert-dismissable > a", "css:finder"],
+        ["xpath=//a[contains(text(),'here!')]", "xpath:link"],
+        ["xpath=//article[@id='content']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/educationalInvolvement/BESTSymposiaOnEducation.jsp')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'here!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5cb80a3-5b98-4dac-9d84-4325ed05a090",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Become SUStainable through Education!",
+      "targets": [
+        ["linkText=Become SUStainable through Education!", "linkText"],
+        ["css=td > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Become SUStainable through Education!')]", "xpath:link"],
+        ["xpath=//article[@id='content']/table/tbody/tr[2]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/event/details.jsp?activity=g59bx5r')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Become SUStainable through Education!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d617e70d-4d71-4553-886c-bfc27aa7c426",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Workshop for International Students",
+      "targets": [
+        ["linkText=Workshop for International Students", "linkText"],
+        ["css=tr:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Workshop for International Students')]", "xpath:link"],
+        ["xpath=//article[@id='content']/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/event/details.jsp?activity=o1nrqaq')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Workshop for International Students')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6db294ee-c0fb-481a-aaa4-00d9e6662822",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1610.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "081b4ea1-9094-4454-a7ff-de820ff26745",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=The Secret Life of Robotic Pets",
+      "targets": [
+        ["linkText=The Secret Life of Robotic Pets", "linkText"],
+        ["css=tr:nth-child(13) a", "css:finder"],
+        ["xpath=//a[contains(text(),'The Secret Life of Robotic Pets')]", "xpath:link"],
+        ["xpath=//article[@id='content']/table/tbody/tr[13]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/event/details.jsp?activity=m2mnoc2')]", "xpath:href"],
+        ["xpath=//tr[13]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'The Secret Life of Robotic Pets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "159fc611-2289-4377-ae55-64da024d7b2f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ad36694-2ec8-4dba-9a98-9b6f4a0706be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-large-play-button",
+      "targets": [
+        ["css=.ytp-large-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2a04b8c-3518-420f-88c2-e1b5154823a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-play-button",
+      "targets": [
+        ["css=.ytp-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[27]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2da35e05-c629-43e7-8e15-2a2914972221",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "94750322-dd98-42c6-bafc-08be89768baa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Summer Season 2023",
+      "targets": [
+        ["linkText=Summer Season 2023", "linkText"],
+        ["css=li:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Summer Season 2023')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/courses/list.jsp?season=summer23')]", "xpath:href"],
+        ["xpath=//section/div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Summer Season 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73c92404-2293-4924-bee5-afa6a78adf07",
+      "comment": "",
+      "command": "click",
+      "target": "id=other-seasons",
+      "targets": [
+        ["id=other-seasons", "id"],
+        ["css=#other-seasons", "css:finder"],
+        ["xpath=//button[@id='other-seasons']", "xpath:attributes"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49a5e9dc-b291-453e-ba91-c697768d4458",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Spring Season 2023",
+      "targets": [
+        ["linkText=Spring Season 2023", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Spring Season 2023')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'list.jsp?season=spring23')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Spring Season 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40fba77f-cbe5-48ed-b972-5b4f199ec376",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(1)", "css:finder"],
+        ["xpath=//article[@id='content']/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"],
+        ["xpath=//td[contains(.,'Engineering comes to help medicine - The cyborgization of the future')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f811feb4-73d0-446a-8e9b-4dd43fd9833d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Engineering comes to help medicine - The cyborgization of the future",
+      "targets": [
+        ["linkText=Engineering comes to help medicine - The cyborgization of the future", "linkText"],
+        ["css=tr:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Engineering comes to help medicine - The cyborgization of the future')]", "xpath:link"],
+        ["xpath=//article[@id='content']/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/event/details.jsp?activity=g5jbiex')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Engineering comes to help medicine - The cyborgization of the future')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d9bcbfb-0d28-4ec6-9bee-1a009eeab899",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WoW : Wealth out of waste",
+      "targets": [
+        ["linkText=WoW : Wealth out of waste", "linkText"],
+        ["css=tr:nth-child(7) a", "css:finder"],
+        ["xpath=//a[contains(text(),'WoW : Wealth out of waste')]", "xpath:link"],
+        ["xpath=//article[@id='content']/table/tbody/tr[7]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/event/details.jsp?activity=i4kfkdt')]", "xpath:href"],
+        ["xpath=//tr[7]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WoW : Wealth out of waste')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78218945-37aa-4ea6-b6f3-4c0121450ec1",
+      "comment": "",
+      "command": "click",
+      "target": "id=other-seasons",
+      "targets": [
+        ["id=other-seasons", "id"],
+        ["css=#other-seasons", "css:finder"],
+        ["xpath=//button[@id='other-seasons']", "xpath:attributes"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e21bd357-acd4-421b-a7e7-4e6211101484",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Winter Season 2022",
+      "targets": [
+        ["linkText=Winter Season 2022", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Winter Season 2022')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'list.jsp?season=winter22')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Winter Season 2022')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3a7b7b0-6d60-4c69-a572-944a7784aaa4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BEST Helpdesk",
+      "targets": [
+        ["linkText=BEST Helpdesk", "linkText"],
+        ["css=p:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'BEST Helpdesk')]", "xpath:link"],
+        ["xpath=//article[@id='content']/p[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/helpdesk/helpdesk.jsp?from=wwwStudent')])[3]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BEST Helpdesk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90b45636-d238-40c5-b235-3f68c0e0e576",
+      "comment": "",
+      "command": "click",
+      "target": "id=priority_form1",
+      "targets": [
+        ["id=priority_form1", "id"],
+        ["name=priority", "name"],
+        ["css=#priority_form1", "css:finder"],
+        ["xpath=//select[@id='priority_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Low\nNormal\nHigh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5dfa445-c34b-485f-b5e5-232343093476",
+      "comment": "",
+      "command": "select",
+      "target": "id=priority_form1",
+      "targets": [],
+      "value": "label=High"
+    }, {
+      "id": "f0b5a1ec-0c74-41f9-bd66-2af5e5dd6c25",
+      "comment": "",
+      "command": "click",
+      "target": "id=type_form1",
+      "targets": [
+        ["id=type_form1", "id"],
+        ["name=type", "name"],
+        ["css=#type_form1", "css:finder"],
+        ["xpath=//select[@id='type_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a23dc859-c7f4-42b9-be31-a795f45d8daf",
+      "comment": "",
+      "command": "select",
+      "target": "id=type_form1",
+      "targets": [],
+      "value": "label=Corporate Relations"
+    }, {
+      "id": "75a274b3-c04b-4e1b-9060-cf5ef8b59183",
+      "comment": "",
+      "command": "click",
+      "target": "id=sender_email_form1",
+      "targets": [
+        ["id=sender_email_form1", "id"],
+        ["name=sender_email", "name"],
+        ["css=#sender_email_form1", "css:finder"],
+        ["xpath=//input[@id='sender_email_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35b1a3c7-ce48-4d01-a617-89960102f1b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=List of Courses",
+      "targets": [
+        ["linkText=List of Courses", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'List of Courses')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/courses/list.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c36d1e0-9515-4de4-9882-b1a9ab9f39a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How to write a ML",
+      "targets": [
+        ["linkText=How to write a ML", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'How to write a ML')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/courses/howToWriteAMotivationLetter.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "192eb28d-790f-4710-8c92-6fd5a9b23a64",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=FAQ",
+      "targets": [
+        ["linkText=FAQ", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'FAQ')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/courses/frequentlyAskedQuestions.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3e8d0d7-5661-4abe-a460-f65b7a78a1c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=The Course I was accepted to was cancelled. What happens now?",
+      "targets": [
+        ["linkText=The Course I was accepted to was cancelled. What happens now?", "linkText"],
+        ["css=#cancelTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'The Course I was accepted to was cancelled. What happens now?')]", "xpath:link"],
+        ["xpath=//div[@id='cancelTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#cancel')]", "xpath:href"],
+        ["xpath=//div[9]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'The Course I was accepted to was cancelled. What happens now?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a439a571-8a4a-440d-a343-290fd1752165",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My country doesn't allow me to travel from/to risky regions. What should I do?",
+      "targets": [
+        ["linkText=My country doesn't allow me to travel from/to risky regions. What should I do?", "linkText"],
+        ["css=#canttravelTitle .collapsed", "css:finder"],
+        ["xpath=//div[@id='canttravelTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#canttravel')]", "xpath:href"],
+        ["xpath=//div[8]/div/h4/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff3e1e39-c92f-44f4-86e7-ecaf196628f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=I don't feel comfortable travelling with the Coronavirus situation, but there is not an official ban from/to that country. What happens if I don't go?",
+      "targets": [
+        ["linkText=I don't feel comfortable travelling with the Coronavirus situation, but there is not an official ban from/to that country. What happens if I don't go?", "linkText"],
+        ["css=#comfTitle .collapsed", "css:finder"],
+        ["xpath=//div[@id='comfTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#comf')]", "xpath:href"],
+        ["xpath=//div[7]/div/h4/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8352ff57-d1a6-42f7-b0b1-260db095fcca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What happens if my transportation is cancelled?",
+      "targets": [
+        ["linkText=What happens if my transportation is cancelled?", "linkText"],
+        ["css=#transpTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'What happens if my transportation is cancelled?')]", "xpath:link"],
+        ["xpath=//div[@id='transpTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#transp')]", "xpath:href"],
+        ["xpath=//div[6]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'What happens if my transportation is cancelled?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3881955d-2deb-4c21-bbc9-725103087ce0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Should I be vaccinated (or get tested) in order to participate in a BEST Course?",
+      "targets": [
+        ["linkText=Should I be vaccinated (or get tested) in order to participate in a BEST Course?", "linkText"],
+        ["css=#vaccineTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'Should I be vaccinated (or get tested) in order to participate in a BEST Course?')]", "xpath:link"],
+        ["xpath=//div[@id='vaccineTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#vaccine')]", "xpath:href"],
+        ["xpath=//div[5]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Should I be vaccinated (or get tested) in order to participate in a BEST Course?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c2384d1-52ca-47ac-bcb7-e9efeec2c033",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What if I need a Visa to enter the country where the BEST Course is happening?",
+      "targets": [
+        ["linkText=What if I need a Visa to enter the country where the BEST Course is happening?", "linkText"],
+        ["css=#visaTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'What if I need a Visa to enter the country where the BEST Course is happening?')]", "xpath:link"],
+        ["xpath=//div[@id='visaTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#visa')]", "xpath:href"],
+        ["xpath=//div[4]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'What if I need a Visa to enter the country where the BEST Course is happening?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40a624bf-72f8-4018-be16-b7692fd93c19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What if I need to quarantine before/after a BEST Course?",
+      "targets": [
+        ["linkText=What if I need to quarantine before/after a BEST Course?", "linkText"],
+        ["css=#quarantineTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'What if I need to quarantine before/after a BEST Course?')]", "xpath:link"],
+        ["xpath=//div[@id='quarantineTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#quarantine')]", "xpath:href"],
+        ["xpath=//div[3]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'What if I need to quarantine before/after a BEST Course?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35779ecc-783b-407d-bf3d-259ee68bebe3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How can I learn about the restrictions of the country I am travelling to?",
+      "targets": [
+        ["linkText=How can I learn about the restrictions of the country I am travelling to?", "linkText"],
+        ["css=#restrictionsTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'How can I learn about the restrictions of the country I am travelling to?')]", "xpath:link"],
+        ["xpath=//div[@id='restrictionsTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#restrictions')]", "xpath:href"],
+        ["xpath=//div[2]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'How can I learn about the restrictions of the country I am travelling to?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4e61c5f-28ba-408d-a3b8-32a025676fdd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Is it safe to participate in a BEST Course?",
+      "targets": [
+        ["linkText=Is it safe to participate in a BEST Course?", "linkText"],
+        ["css=#safeTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'Is it safe to participate in a BEST Course?')]", "xpath:link"],
+        ["xpath=//div[@id='safeTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#safe')]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Is it safe to participate in a BEST Course?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd848b35-2196-4eb6-a85e-436a9d4374c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How can I learn about the restrictions of the country I am travelling to?",
+      "targets": [
+        ["linkText=How can I learn about the restrictions of the country I am travelling to?", "linkText"],
+        ["css=#restrictionsTitle .title", "css:finder"],
+        ["xpath=//a[contains(text(),'How can I learn about the restrictions of the country I am travelling to?')]", "xpath:link"],
+        ["xpath=//div[@id='restrictionsTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#restrictions')]", "xpath:href"],
+        ["xpath=//div[2]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'How can I learn about the restrictions of the country I am travelling to?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e4b6783-a4c6-4f52-96cd-88ab6c2325be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Re-open EU",
+      "targets": [
+        ["linkText=Re-open EU", "linkText"],
+        ["css=#restrictions a", "css:finder"],
+        ["xpath=//a[contains(text(),'Re-open EU')]", "xpath:link"],
+        ["xpath=//div[@id='restrictions']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://reopen.europa.eu/en')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Re-open EU')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cc1ac77-447c-4b25-bbc1-b0070342ac1d",
+      "comment": "",
+      "command": "click",
+      "target": "id=priceTitle",
+      "targets": [
+        ["id=priceTitle", "id"],
+        ["css=#priceTitle", "css:finder"],
+        ["xpath=//div[@id='priceTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='accordion']/div/div", "xpath:idRelative"],
+        ["xpath=//article/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7978c8f-6a91-44e1-89d4-658948ba1016",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Why are the events so cheap?",
+      "targets": [
+        ["linkText=Why are the events so cheap?", "linkText"],
+        ["css=#priceTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'Why are the events so cheap?')]", "xpath:link"],
+        ["xpath=//div[@id='priceTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#price')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Why are the events so cheap?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbd02b22-c2c0-4765-b696-fc60fc8e5248",
+      "comment": "",
+      "command": "click",
+      "target": "id=feeTitle",
+      "targets": [
+        ["id=feeTitle", "id"],
+        ["css=#feeTitle", "css:finder"],
+        ["xpath=//div[@id='feeTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='accordion']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//article/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89078423-3d33-42d1-9dce-2d4b478ea7c8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Why is there a fee for some events and none for others?",
+      "targets": [
+        ["linkText=Why is there a fee for some events and none for others?", "linkText"],
+        ["css=#feeTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'Why is there a fee for some events and none for others?')]", "xpath:link"],
+        ["xpath=//div[@id='feeTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#fee')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Why is there a fee for some events and none for others?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63f7301d-022f-49c1-be13-13f3d2b92357",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What is the maximum fee for a BEST event?",
+      "targets": [
+        ["linkText=What is the maximum fee for a BEST event?", "linkText"],
+        ["css=#maxFeeTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'What is the maximum fee for a BEST event?')]", "xpath:link"],
+        ["xpath=//div[@id='maxFeeTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#maximumFee')]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'What is the maximum fee for a BEST event?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68e2cb46-fe1a-4b31-a069-43f084e4fa64",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectionCriteriaTitle",
+      "targets": [
+        ["id=selectionCriteriaTitle", "id"],
+        ["css=#selectionCriteriaTitle", "css:finder"],
+        ["xpath=//div[@id='selectionCriteriaTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='selection']/div/div", "xpath:idRelative"],
+        ["xpath=//article/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d13b3e9f-3e35-4a13-aa93-d7d5486e9c43",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectionCriteriaTitle",
+      "targets": [
+        ["id=selectionCriteriaTitle", "id"],
+        ["css=#selectionCriteriaTitle", "css:finder"],
+        ["xpath=//div[@id='selectionCriteriaTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='selection']/div/div", "xpath:idRelative"],
+        ["xpath=//article/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42a0ea28-e13e-4792-9ee5-4d181d48e9e5",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=selectionCriteriaTitle",
+      "targets": [
+        ["id=selectionCriteriaTitle", "id"],
+        ["css=#selectionCriteriaTitle", "css:finder"],
+        ["xpath=//div[@id='selectionCriteriaTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='selection']/div/div", "xpath:idRelative"],
+        ["xpath=//article/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8b12e1f-9731-45bc-a6cb-171db313dc71",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How is the selection for the events done?",
+      "targets": [
+        ["linkText=How is the selection for the events done?", "linkText"],
+        ["css=#selectionCriteriaTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'How is the selection for the events done?')]", "xpath:link"],
+        ["xpath=//div[@id='selectionCriteriaTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#selectionCriteria')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'How is the selection for the events done?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "743d8225-6891-43de-a3b9-9d52486dfdcc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Can I apply for every event?",
+      "targets": [
+        ["linkText=Can I apply for every event?", "linkText"],
+        ["css=#canIapplyTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'Can I apply for every event?')]", "xpath:link"],
+        ["xpath=//div[@id='canIapplyTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#canIapply')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Can I apply for every event?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04803adb-6ef6-49fa-8c1c-75ebfa2e4643",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=For how many events per season may I apply?",
+      "targets": [
+        ["linkText=For how many events per season may I apply?", "linkText"],
+        ["css=#maxParticipationTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'For how many events per season may I apply?')]", "xpath:link"],
+        ["xpath=//div[@id='maxParticipationTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#numberOfEventsPerSeason')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'For how many events per season may I apply?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f22c0423-0446-4c84-8e34-0bc59bb9c3b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=afterAcceptanceTitle",
+      "targets": [
+        ["id=afterAcceptanceTitle", "id"],
+        ["css=#afterAcceptanceTitle", "css:finder"],
+        ["xpath=//div[@id='afterAcceptanceTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='whatNext']/div/div", "xpath:idRelative"],
+        ["xpath=//article/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "252cad58-720a-42e1-9499-d3db364e5473",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What is the BEST Spirit?",
+      "targets": [
+        ["linkText=What is the BEST Spirit?", "linkText"],
+        ["css=#BESTSpiritTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'What is the BEST Spirit?')]", "xpath:link"],
+        ["xpath=//div[@id='BESTSpiritTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#BESTSpirit')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'What is the BEST Spirit?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a2e2388-9542-455c-997f-8227d49a5514",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What should I do after being accepted to a BEST event?",
+      "targets": [
+        ["linkText=What should I do after being accepted to a BEST event?", "linkText"],
+        ["css=#afterAcceptanceTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'What should I do after being accepted to a BEST event?')]", "xpath:link"],
+        ["xpath=//div[@id='afterAcceptanceTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#afterAcceptancs')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'What should I do after being accepted to a BEST event?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "accd6afe-92b7-4d5e-97f4-0f85ce58ac36",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What will happen if I go to a BEST event and get infected by the BEST Spirit virus?",
+      "targets": [
+        ["linkText=What will happen if I go to a BEST event and get infected by the BEST Spirit virus?", "linkText"],
+        ["css=#spiritVirusTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'What will happen if I go to a BEST event and get infected by the BEST Spirit virus?')]", "xpath:link"],
+        ["xpath=//div[@id='spiritVirusTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#spiritVirus')]", "xpath:href"],
+        ["xpath=//div[4]/div[3]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'What will happen if I go to a BEST event and get infected by the BEST Spirit virus?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6156b2e2-074e-43e5-9611-c268dc8d24ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=notAcceptedTitle",
+      "targets": [
+        ["id=notAcceptedTitle", "id"],
+        ["css=#notAcceptedTitle", "css:finder"],
+        ["xpath=//div[@id='notAcceptedTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='whatNext']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "676b187d-4f77-4891-8162-57236444d9e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What do I do if I'm not accepted to an event?",
+      "targets": [
+        ["linkText=What do I do if I'm not accepted to an event?", "linkText"],
+        ["css=#notAcceptedTitle .collapsed", "css:finder"],
+        ["xpath=//div[@id='notAcceptedTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#notAccepted')]", "xpath:href"],
+        ["xpath=//div[4]/div[4]/div/h4/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b047785-54c9-4d88-a0be-11a0ebff6e78",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Can I get ECTS credits participating in a BEST event?",
+      "targets": [
+        ["linkText=Can I get ECTS credits participating in a BEST event?", "linkText"],
+        ["css=#ECTSTitle .collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'Can I get ECTS credits participating in a BEST event?')]", "xpath:link"],
+        ["xpath=//div[@id='ECTSTitle']/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#ECTS')]", "xpath:href"],
+        ["xpath=//div[4]/div[5]/div/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Can I get ECTS credits participating in a BEST event?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b74f582c-1e91-47ea-8fab-fe49c47e9e98",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'News')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/courses/news.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c74bb6b5-fd86-46d7-9d35-5e9cf5a1f69a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=previous news here",
+      "targets": [
+        ["linkText=previous news here", "linkText"],
+        ["css=#content a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'previous news here')]", "xpath:link"],
+        ["xpath=//article[@id='content']/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'previousNews.jsp')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'previous news here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b6b2ec0-b820-42f8-b24e-5b0f0bb2d1c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Useful info for the BEST Courses application deadline:",
+      "targets": [
+        ["linkText=Useful info for the BEST Courses application deadline:", "linkText"],
+        ["css=.row:nth-child(3) h3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Useful info for the BEST Courses application deadline:')]", "xpath:link"],
+        ["xpath=//article[@id='content']/div/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news/article.jsp?article=jiwg2nh')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Useful info for the BEST Courses application deadline:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84731737-02a7-458a-a224-6335b618c953",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=For BEST Courses: Please write any applications to a text editor first, not directly on this site.",
+      "targets": [
+        ["linkText=For BEST Courses: Please write any applications to a text editor first, not directly on this site.", "linkText"],
+        ["css=.row:nth-child(4) h3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'For BEST Courses: Please write any applications to a text editor first, not directly on this site.')]", "xpath:link"],
+        ["xpath=//article[@id='content']/div[2]/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news/article.jsp?article=fkk8db9')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'For BEST Courses: Please write any applications to a text editor first, not directly on this site.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4728743f-6ee9-490e-aed1-09f141262603",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=newsfeed",
+      "targets": [
+        ["linkText=newsfeed", "linkText"],
+        ["css=p > .newsFeed", "css:finder"],
+        ["xpath=//a[contains(text(),'newsfeed')]", "xpath:link"],
+        ["xpath=//article[@id='content']/p[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news/newsFeed.jsp?location=Public:+courses&target=courses')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'newsfeed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f13c91a-7491-445d-a52f-293bb8bc6e1f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Career news",
+      "targets": [
+        ["linkText=Career news", "linkText"],
+        ["css=li:nth-child(5) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Career news')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/career/news.jsp')]", "xpath:href"],
+        ["xpath=//section/div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Career news')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "698322f2-3cbb-4a9e-b6c1-4171ff4a27ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container > .nav > .menu-item:nth-child(6)",
+      "targets": [
+        ["css=.container > .nav > .menu-item:nth-child(6)", "css:finder"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a79b2990-2e4a-4acf-b254-426fcc33d07d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact us",
+      "targets": [
+        ["linkText=Contact us", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact us')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/helpdesk/helpdesk.jsp?from=wwwStudent')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "664bcdc9-1de3-4a91-8bb8-29dad3035d79",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Welcome",
+      "targets": [
+        ["linkText=Welcome", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Welcome')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/career/welcome.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c0fcab9-8d0d-42a8-8284-a26953839458",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Welcome",
+      "targets": [
+        ["linkText=Welcome", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Welcome')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/courses/welcome.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efcf3ab4-eb24-437f-91de-02a42d7fbba4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Competitions",
+      "targets": [
+        ["linkText=Competitions", "linkText"],
+        ["css=.main-navigation .menu-item:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Competitions')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/competitions')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Competitions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2de0ef27-8bff-47dc-a077-3a4301ad212b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=participate in our competitions",
+      "targets": [
+        ["linkText=participate in our competitions", "linkText"],
+        ["css=p:nth-child(11) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'participate in our competitions')]", "xpath:link"],
+        ["xpath=//article[@id='content']/p[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/competitions/list.jsp')])[3]", "xpath:href"],
+        ["xpath=//p[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'participate in our competitions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa0b14fb-ccb6-4764-81a3-70587b1e37c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EBEC Challenge Benelux",
+      "targets": [
+        ["linkText=EBEC Challenge Benelux", "linkText"],
+        ["css=tr:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'EBEC Challenge Benelux')]", "xpath:link"],
+        ["xpath=//article[@id='content']/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/event/details.jsp?activity=i4kfkdb')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EBEC Challenge Benelux')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86e6207e-02ac-4ac1-b5a7-06da253fb3cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EBEC Challenge Greece",
+      "targets": [
+        ["linkText=EBEC Challenge Greece", "linkText"],
+        ["css=tr:nth-child(5) a", "css:finder"],
+        ["xpath=//a[contains(text(),'EBEC Challenge Greece')]", "xpath:link"],
+        ["xpath=//article[@id='content']/table/tbody/tr[5]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/event/details.jsp?activity=i4kfkd5')]", "xpath:href"],
+        ["xpath=//tr[5]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EBEC Challenge Greece')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17181450-2e2b-4fcf-90ae-85fa97e65ad2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Aristotle University of Thessaloniki",
+      "targets": [
+        ["linkText=Aristotle University of Thessaloniki", "linkText"],
+        ["css=li:nth-child(4) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Aristotle University of Thessaloniki')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.auth.gr/home/index_en.html']", "xpath:href"],
+        ["xpath=//section/div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Aristotle University of Thessaloniki')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e2e3cd1-b6e1-4ba7-8670-6739e53d1789",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > a:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(3) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'BEST Group\nThessaloniki')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/aboutBEST/structure/lbgView.jsp?lbginfo=th')]", "xpath:href"],
+        ["xpath=//section/div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c96885-8b6d-464b-9103-ff873466278a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Event website",
+      "targets": [
+        ["linkText=Event website", "linkText"],
+        ["css=.list-unstyled > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Event website')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section[3]/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://ebecgreece.org']", "xpath:href"],
+        ["xpath=//section[3]/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Event website')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8897",
+      "windowTimeout": 2000
+    }, {
+      "id": "6aea487b-1e0a-4914-b4dc-9653e7b2869a",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39c7d62a-565b-48a9-8bee-9fd0fe3dff35",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8897}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "499b21a2-2dbb-4636-89be-2f146466efd7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c1ed02b-cc9d-42a5-ba7d-82a70b2b04d6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5d47b2f-8da2-43c9-926b-8a1bc416771b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Event schedule",
+      "targets": [
+        ["linkText=Event schedule", "linkText"],
+        ["css=.list-unstyled > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Event schedule')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section[3]/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://docs.google.com/spreadsheets/d/1Z-VAHhTZCcgtER1mxcRXNLSm8Z1DuWQSmx9TZCD_S5I/edit?usp=sharing')]", "xpath:href"],
+        ["xpath=//section[3]/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Event schedule')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win193",
+      "windowTimeout": 2000
+    }, {
+      "id": "9af5eb45-e30e-40d0-95d1-77fed25bcfec",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win193}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42675e47-6e64-4f6b-b15d-a943b4ff11eb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b874eff0-8253-4fb2-b143-a3ba08bbc0ff",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c25e1f9f-bb88-4292-834d-344092a77f0b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Event survival guide",
+      "targets": [
+        ["linkText=Event survival guide", "linkText"],
+        ["css=.list-unstyled > li:nth-child(3) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Event survival guide')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section[3]/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://drive.google.com/file/d/1Gmy_clEzsgO92BX2oWd6LVGukP47p1MC/view?usp=share_link')]", "xpath:href"],
+        ["xpath=//section[3]/div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Event survival guide')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6545",
+      "windowTimeout": 2000
+    }, {
+      "id": "db3c3cd6-0d8a-4da3-936c-5e264785ac73",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6545}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f906bd2-4bc3-44b8-a2dc-0fa4267eab5e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9411e81-7ec3-46b4-928a-ad18442fed0f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c84bf3af-1d57-401e-85c4-0edcbc4d5145",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apply now!",
+      "targets": [
+        ["linkText=Apply now!", "linkText"],
+        ["css=.btn-default", "css:finder"],
+        ["xpath=//a[contains(text(),'Apply now!')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section[4]/div[2]/ul/li/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/event/apply/approveResponsibilities.jsp?activity=i4kfkd5&season=ee0tb2w&type=70')]", "xpath:href"],
+        ["xpath=//li/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Apply now!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40bd3e50-1120-4cce-a8e5-52b7f0a4c0ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EBEC Website",
+      "targets": [
+        ["linkText=EBEC Website", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'EBEC Website')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://ebec.BEST.eu.org'])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d141af30-fc7f-47bc-83e0-293df976c35c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'News')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/competitions/news.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47ab0dbc-9726-492d-af5a-e4c04f13474d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#content > p:nth-child(4)",
+      "targets": [
+        ["css=#content > p:nth-child(4)", "css:finder"],
+        ["xpath=//article[@id='content']/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'You can check the previous news here. Stay up to date subscribing to the newsfeed.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "442bd463-9e24-450d-9460-5f2c8eda207f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=previous news here",
+      "targets": [
+        ["linkText=previous news here", "linkText"],
+        ["css=#content a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'previous news here')]", "xpath:link"],
+        ["xpath=//article[@id='content']/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'previousNews.jsp')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'previous news here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c92c4787-4000-4ce4-b2eb-a6492f53b295",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact us",
+      "targets": [
+        ["linkText=Contact us", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact us')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/helpdesk/helpdesk.jsp?from=wwwStudent')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f364e3c-1cef-4ab0-8130-30327c26fb6b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Career",
+      "targets": [
+        ["linkText=Career", "linkText"],
+        ["css=.main-navigation .menu-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Career')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/career')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Career')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8898857f-d848-435f-a79d-667bd5bc8594",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(5)",
+      "targets": [
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//article[@id='content']/button", "xpath:idRelative"],
+        ["xpath=//article/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Job Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9767f257-e894-46e1-9643-35f75a5a375e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Study Offers",
+      "targets": [
+        ["linkText=Study Offers", "linkText"],
+        ["css=.btn:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Study Offers')]", "xpath:link"],
+        ["xpath=//article[@id='content']/button[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/career/studyOffers.jsp')])[3]", "xpath:href"],
+        ["xpath=//button[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Study Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "535b16bc-f959-4508-82b6-71b7aaffb8a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=//input[@value='View']", "xpath:attributes"],
+        ["xpath=//article[@id='content']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a9f60dd-cad4-426f-87d6-443ba681e354",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Job Offers",
+      "targets": [
+        ["linkText=Job Offers", "linkText"],
+        ["css=.btn:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Job Offers')]", "xpath:link"],
+        ["xpath=//article[@id='content']/button/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/career/jobOffers.jsp')])[4]", "xpath:href"],
+        ["xpath=//button/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Job Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f34dafb-4b1c-4f82-bb44-3674dd77abf6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Junior Cloud Engineer with DevOps",
+      "targets": [
+        ["linkText=Junior Cloud Engineer with DevOps", "linkText"],
+        ["css=.col-md-4:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Junior Cloud Engineer with DevOps')]", "xpath:link"],
+        ["xpath=//article[@id='content']/section/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'companyOfferView.jsp?activity=j1ww5po')]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Junior Cloud Engineer with DevOps')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f55dbd4-d4c5-4702-a18b-cfc685701134",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(11)",
+      "targets": [
+        ["css=.btn:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//article[@id='content']/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Subscribe NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce3ed297-542b-40d3-ae45-34c16dbc8490",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Subscribe NOW",
+      "targets": [
+        ["linkText=Subscribe NOW", "linkText"],
+        ["css=.btn:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Subscribe NOW')]", "xpath:link"],
+        ["xpath=//article[@id='content']/button[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account/newsletterSubscriptionEdit.jsp')])[2]", "xpath:href"],
+        ["xpath=//button[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Subscribe NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0daecf6-609c-4e7e-8468-8b4e1fba38d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Read more!",
+      "targets": [
+        ["linkText=Read more!", "linkText"],
+        ["css=p:nth-child(16) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Read more!')]", "xpath:link"],
+        ["xpath=//article[@id='content']/p[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account/newsletterSubscriptionEdit.jsp')])[3]", "xpath:href"],
+        ["xpath=//p[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Read more!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "714998b8-52fb-4062-b496-61afd6272e21",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Companies & Universities",
+      "targets": [
+        ["linkText=Companies & Universities", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Companies & Universities')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/career/partners.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5889c2eb-32d3-45a2-902f-54e918f33816",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=offers",
+      "targets": [
+        ["linkText=offers", "linkText"],
+        ["css=#content > p > a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'offers')])[5]", "xpath:link"],
+        ["xpath=//article[@id='content']/p[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'jobOffers.jsp')])[3]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f591ae6c-7cc3-44c7-bd28-0a486551862f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=special programmes",
+      "targets": [
+        ["linkText=special programmes", "linkText"],
+        ["css=p > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'special programmes')]", "xpath:link"],
+        ["xpath=//article[@id='content']/p[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'studyOffers.jsp')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'special programmes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be0ec322-5364-4469-87fd-133a7fbd51ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cpy-logos:nth-child(5) > h2",
+      "targets": [
+        ["css=.cpy-logos:nth-child(5) > h2", "css:finder"],
+        ["xpath=//article[@id='content']/section/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Corporate Partners More Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1142344d-6370-4429-b76a-3fab75691c4b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More Information",
+      "targets": [
+        ["linkText=More Information", "linkText"],
+        ["css=.cpy-logos:nth-child(5) > h2 a", "css:finder"],
+        ["xpath=//a[contains(text(),'More Information')]", "xpath:link"],
+        ["xpath=//article[@id='content']/section/h2/small/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'partnershipLevels/corporatePartner.jsp')]", "xpath:href"],
+        ["xpath=//small/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9da922ff-dbd7-4e11-97d1-7544e66e4839",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=internal pages",
+      "targets": [
+        ["linkText=internal pages", "linkText"],
+        ["css=ul:nth-child(8) a", "css:finder"],
+        ["xpath=//a[contains(text(),'internal pages')]", "xpath:link"],
+        ["xpath=//article[@id='content']/ul[3]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://private.best.eu.org']", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'internal pages')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "427c1aa8-0b60-4737-9469-ec32ba250b02",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,522.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "654ec06f-160a-40d0-81f9-1fb544f85928",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cpy-logos:nth-child(6) > h2 a",
+      "targets": [
+        ["css=.cpy-logos:nth-child(6) > h2 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'More Information')])[2]", "xpath:link"],
+        ["xpath=//article[@id='content']/section[2]/h2/small/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'partnershipLevels/careerSupportPartner.jsp')]", "xpath:href"],
+        ["xpath=//section[2]/h2/small/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54901693-c494-4ffb-aca7-4fa9fc67d112",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Companies & Universities",
+      "targets": [
+        ["linkText=Companies & Universities", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Companies & Universities')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/career/partners.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af493ba3-985f-429d-acd1-ac4350d41e0e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Study offers",
+      "targets": [
+        ["linkText=Study offers", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Study offers')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/career/studyOffers.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "312c797f-49e6-43eb-ad87-41a14a5e9afe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Career Events",
+      "targets": [
+        ["linkText=Career Events", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Career Events')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/career/eventList.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9360ad16-b3ab-4d92-9396-64d832e29d3a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Past Events",
+      "targets": [
+        ["linkText=Past Events", "linkText"],
+        ["css=.nav-tabs > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Past Events')]", "xpath:link"],
+        ["xpath=//article[@id='content']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#past')]", "xpath:href"],
+        ["xpath=//article/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Past Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e952725-2dd6-49aa-8e76-711c4959ebdd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BEST Career Day 2018",
+      "targets": [
+        ["linkText=BEST Career Day 2018", "linkText"],
+        ["css=.table:nth-child(3) tr:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'BEST Career Day 2018')]", "xpath:link"],
+        ["xpath=//div[@id='past']/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../event/details.jsp?activity=i4kfkj5')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BEST Career Day 2018')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ab8a137-2084-446d-b43a-541bfc7c660a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'News')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/career/news.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cb12fb7-18f8-48aa-be01-921701852d17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-nav > .menu-item:nth-child(7)",
+      "targets": [
+        ["css=.navbar-nav > .menu-item:nth-child(7)", "css:finder"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[7]", "xpath:idRelative"],
+        ["xpath=//div/ul/li[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00d0b048-1b98-4307-960d-5aeecba1e8cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BVS2021",
+      "targets": [
+        ["linkText=BVS2021", "linkText"],
+        ["css=.main-navigation .menu-item:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'BVS2021')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/summit')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BVS2021')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93a57e97-79b2-4d6f-8f13-e30c352fb4dc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=REGISTER TO DEPT AGENCY WORKSHOP HERE",
+      "targets": [
+        ["linkText=REGISTER TO DEPT AGENCY WORKSHOP HERE", "linkText"],
+        ["css=main > div > a", "css:finder"],
+        ["xpath=//a[contains(text(),'REGISTER TO DEPT AGENCY WORKSHOP HERE')]", "xpath:link"],
+        ["xpath=//section[@id='page']/div/main/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://docs.google.com/forms/d/e/1FAIpQLSdrOzCyAMPPhOrfUktIpUot7muEB7MPQxr-RinXR7RW9St1LA/viewform')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'REGISTER TO DEPT AGENCY WORKSHOP HERE')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9310",
+      "windowTimeout": 2000
+    }, {
+      "id": "0bb66222-8969-4254-ab93-50f9b7515e1e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9310}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18ef9d32-a34a-4a06-a4fa-c6d459226cc7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97bd3734-96d3-4993-81c6-e6024049b66a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "821d60a7-14de-408f-ae55-35e2eb99a99c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(4)",
+      "targets": [
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Join')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb653d15-3a04-4a24-8441-10d6d861715e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary-invert:nth-child(3)",
+      "targets": [
+        ["css=.btn-primary-invert:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='_form2']/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Upload')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "903b0f1a-635e-448a-a9bc-f0301b997eff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-content:nth-child(10) .fa-instagram",
+      "targets": [
+        ["css=.secondary-content:nth-child(10) .fa-instagram", "css:finder"],
+        ["xpath=//section[@id='page']/div/main/div[5]/div/h1[2]/a/i", "xpath:idRelative"],
+        ["xpath=//h1[2]/a/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1539",
+      "windowTimeout": 2000
+    }, {
+      "id": "4c957b05-2e0e-44f8-876d-ecae35b29b9a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1539}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e40d4f7a-e50f-45f9-94e1-fd6403b9db59",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52ba2dc2-81ba-49ce-9d2f-fd1637726ed7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d247083f-2718-45cd-88a8-10928fd24393",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-content:nth-child(10) .fa-facebook-square",
+      "targets": [
+        ["css=.secondary-content:nth-child(10) .fa-facebook-square", "css:finder"],
+        ["xpath=//section[@id='page']/div/main/div[5]/div/h1[2]/a[2]/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3264",
+      "windowTimeout": 2000
+    }, {
+      "id": "6b768986-80ef-4693-8980-2b85fb5a3393",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3264}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8804e682-d8cd-434d-8b07-09391c1bb3c0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,278.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32d8d4ab-14a7-4d42-9e6e-b1f354feac9b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d93da65-5efa-447b-8489-a9d891a9b9f3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f7a120f-df24-4c2b-8941-0e2fc39cebc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-content:nth-child(10) .fa-linkedin-square",
+      "targets": [
+        ["css=.secondary-content:nth-child(10) .fa-linkedin-square", "css:finder"],
+        ["xpath=//section[@id='page']/div/main/div[5]/div/h1[2]/a[3]/i", "xpath:idRelative"],
+        ["xpath=//a[3]/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3097",
+      "windowTimeout": 2000
+    }, {
+      "id": "8361b4d7-e744-4125-b4bc-7bfaaf5a5915",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3097}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a4d38ae-fb11-4190-8099-4451d8cb018c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0da0da6-0734-4165-abfb-7803fb2d4d54",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47b13673-c52b-41ed-8070-5a01b6f485d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12:nth-child(1) .card-back > .card-body",
+      "targets": [
+        ["css=.col-xs-12:nth-child(1) .card-back > .card-body", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[3]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26a27f0b-b2d2-4aeb-b7ea-995c5a8f6cfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-current .name",
+      "targets": [
+        ["css=.slick-current .name", "css:finder"],
+        ["xpath=//div[@id='speakerInfo']/div/div/div[37]/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[37]/a/div/div[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1168",
+      "windowTimeout": 2000
+    }, {
+      "id": "7b40fa04-d2f2-40c1-9473-2349439c95b0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1168}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ca374c9-c27e-4b76-bf58-bca0f6d134d8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef9849f0-5dbe-4cc5-805e-e501a9e80d32",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59cd186e-e5a8-404b-93ff-44c85bdb3a3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-6:nth-child(6) .name",
+      "targets": [
+        ["css=.col-xs-6:nth-child(6) .name", "css:finder"],
+        ["xpath=//div[@id='speakerInfo']/div/div/div[6]/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60e41d99-8977-4032-9f05-440499fe5e79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-6:nth-child(7) .card",
+      "targets": [
+        ["css=.col-xs-6:nth-child(7) .card", "css:finder"],
+        ["xpath=//div[@id='speakerInfo']/div/div/div[7]/a/div", "xpath:idRelative"],
+        ["xpath=//div[7]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7722668a-0825-4f20-b934-8df35db26cb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-4:nth-child(2) .card-img-top",
+      "targets": [
+        ["css=.col-xs-4:nth-child(2) .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='Isomat']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[2]/div/div[4]/div[2]/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/a/div/span/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1267",
+      "windowTimeout": 2000
+    }, {
+      "id": "4a4038c4-97c1-4939-9b06-6060e44b3cf5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1267}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3208c48-7dda-4f3c-b607-6d1c6223bd52",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d224ef49-81d4-4643-b45f-10ffe0c7f4ee",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ee37adc-81a2-419e-86a8-8f039adaec5e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Company booklet",
+      "targets": [
+        ["linkText=Company booklet", "linkText"],
+        ["css=.btn-secondary-invert:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Company booklet')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://static.best.eu.org/career/booklets/BVS21_booklet.pdf')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Company booklet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d381ca8c-9dd5-46ad-988c-2463da746976",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Become a Partner",
+      "targets": [
+        ["linkText=Become a Partner", "linkText"],
+        ["css=.btn-secondary-invert:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Become a Partner')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/helpdesk/partnerApplication.jsp')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Become a Partner')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8df23233-c830-497c-8fee-24a03b189e18",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Educational Involvement",
+      "targets": [
+        ["linkText=Educational Involvement", "linkText"],
+        ["css=.main-navigation .menu-item:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Educational Involvement')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/educationalInvolvement')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Educational Involvement')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e41359ae-0850-4b30-b3ba-b80881125410",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=surveys",
+      "targets": [
+        ["linkText=surveys", "linkText"],
+        ["css=p > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'surveys')]", "xpath:link"],
+        ["xpath=//article[@id='content']/p[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/educationalInvolvement/survey.jsp')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'surveys')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0efe46dd-1964-428d-b656-b2f1cefa9d75",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BSEs",
+      "targets": [
+        ["linkText=BSEs", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'BSEs')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/educationalInvolvement/BESTSymposiaOnEducation.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0d8506f-c1e3-4e1e-af22-e65d155d4cc5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Survey",
+      "targets": [
+        ["linkText=Survey", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Survey')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/educationalInvolvement/survey.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "812ef0c6-fabe-46b8-b785-16301267f8cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Conferences and Publications",
+      "targets": [
+        ["linkText=Conferences and Publications", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Conferences and Publications')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/educationalInvolvement/conferences.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6057201d-1258-434f-842b-68cd3fe35b7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3 > a:nth-child(1) > img",
+      "targets": [
+        ["css=h3 > a:nth-child(1) > img", "css:finder"],
+        ["xpath=//img[@alt='BSE Reports']", "xpath:img"],
+        ["xpath=//article[@id='content']/h3/a/img", "xpath:idRelative"],
+        ["xpath=//h3/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ee51cd3-8b44-4526-a602-a0824a3099c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a:nth-child(2) > img",
+      "targets": [
+        ["css=a:nth-child(2) > img", "css:finder"],
+        ["xpath=(//img[@alt='BSE Reports'])[2]", "xpath:img"],
+        ["xpath=//article[@id='content']/h3/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ccc23c9-e15a-49b0-a7dc-8df119ff6664",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) > img",
+      "targets": [
+        ["css=a:nth-child(2) > img", "css:finder"],
+        ["xpath=(//img[@alt='BSE Reports'])[2]", "xpath:img"],
+        ["xpath=//article[@id='content']/h3/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82c18059-9e84-4854-8219-7bd3950fe556",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=a:nth-child(2) > img",
+      "targets": [
+        ["css=a:nth-child(2) > img", "css:finder"],
+        ["xpath=(//img[@alt='BSE Reports'])[2]", "xpath:img"],
+        ["xpath=//article[@id='content']/h3/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0f504ce-d731-4356-a3c2-9d67b0de551f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container > .nav > .menu-item:nth-child(5)",
+      "targets": [
+        ["css=.container > .nav > .menu-item:nth-child(5)", "css:finder"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "600a6d3d-1b0b-4ba9-a901-cc3243f1e7ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BEST Position Paper",
+      "targets": [
+        ["linkText=BEST Position Paper", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'BEST Position Paper')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/educationalInvolvement/positionpaper.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "265b852a-38d6-4295-a206-a338ebd0cbc8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Projects",
+      "targets": [
+        ["linkText=Projects", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Projects')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/educationalInvolvement/pastProjects.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0bdbe60-79fb-4f9d-bff8-cb713b462f6d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=A-STEP 2030 \"Attracting Diverse Talent to the Engineering Professions of 2030\"",
+      "targets": [
+        ["linkText=A-STEP 2030 \"Attracting Diverse Talent to the Engineering Professions of 2030\"", "linkText"],
+        ["css=p:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'A-STEP 2030 \"Attracting Diverse Talent to the Engineering Professions of 2030\"')]", "xpath:link"],
+        ["xpath=//article[@id='content']/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.astep2030.eu/en')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'A-STEP 2030 \"Attracting Diverse Talent to the Engineering Professions of 2030\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e1e4788-d963-4f73-a00e-0843769ef04f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Partners",
+      "targets": [
+        ["linkText=Partners", "linkText"],
+        ["css=.navbar-nav > .menu-item:nth-child(7) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Partners')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/educationalInvolvement/partners_and_projects.jsp')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ecb2b89-1bce-4ab1-8432-6d380f56bf9c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=.navbar-nav > .menu-item:nth-child(8) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'News')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/educationalInvolvement/news.jsp')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ca11141-84c7-468f-a04c-97da0bc2d89f",
+      "comment": "",
+      "command": "click",
+      "target": "id=sidebar",
+      "targets": [
+        ["id=sidebar", "id"],
+        ["css=#sidebar", "css:finder"],
+        ["xpath=//aside[@id='sidebar']", "xpath:attributes"],
+        ["xpath=//section[@id='page']/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2860b11-7827-4ebc-b100-bd600e016d37",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=.navbar-nav > .menu-item:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact Us')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/educationalInvolvement/contactUs.jsp')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "677de49e-af95-43e9-ae11-4d2af3d867cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About BEST",
+      "targets": [
+        ["linkText=About BEST", "linkText"],
+        ["css=.main-navigation .menu-item:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About BEST')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/aboutBEST')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About BEST')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1387e508-6222-4a3f-ac97-ed145acfeb34",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Identity",
+      "targets": [
+        ["linkText=Identity", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Identity')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/aboutBEST/identity.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "874524f8-f58b-4ba9-9e91-8c254b611ba3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=History",
+      "targets": [
+        ["linkText=History", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'History')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/aboutBEST/history.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee1abdb1-8560-43d6-a53e-b1562fdf8c7c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Local Groups",
+      "targets": [
+        ["linkText=Local Groups", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Local Groups')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/aboutBEST/structure/lbgList.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6095",
+      "windowTimeout": 2000
+    }, {
+      "id": "74810932-f62a-4a2f-a06f-bfe6f40c47a1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6095}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "add14462-357f-40ac-9de2-7a84426dc1a8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cba45a2-4259-46fb-826b-a18e0b7885d0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d565788-dd60-4a91-9781-4bd7c174a297",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=establish a BEST group",
+      "targets": [
+        ["linkText=establish a BEST group", "linkText"],
+        ["css=p:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'establish a BEST group')]", "xpath:link"],
+        ["xpath=//article[@id='content']/p[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/aboutBEST/createGroup/index.jsp')])[3]", "xpath:href"],
+        ["xpath=//p[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'establish a BEST group')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "726c625e-05d4-4661-82fb-706b4023afe4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=current borders of BEST",
+      "targets": [
+        ["linkText=current borders of BEST", "linkText"],
+        ["css=b > a", "css:finder"],
+        ["xpath=//a[contains(text(),'current borders of BEST')]", "xpath:link"],
+        ["xpath=//article[@id='content']/ol/li[5]/b/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/aboutBEST/structure/lbgList.jsp#map')]", "xpath:href"],
+        ["xpath=//b/a", "xpath:position"],
+        ["xpath=//a[contains(.,'current borders of BEST')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dea60925-acdd-4b2e-9883-5ffa66b0f5f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=List",
+      "targets": [
+        ["linkText=List", "linkText"],
+        ["css=.nav-tabs > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'List')]", "xpath:link"],
+        ["xpath=//article[@id='content']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#list')]", "xpath:href"],
+        ["xpath=//article/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bab9fe65-3cc7-429a-9d82-6709430b6596",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container > .nav > .menu-item:nth-child(5)",
+      "targets": [
+        ["css=.container > .nav > .menu-item:nth-child(5)", "css:finder"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b2beba1-3d05-4363-b4a7-6ca00fb88997",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join BEST",
+      "targets": [
+        ["linkText=Join BEST", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Join BEST')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/aboutBEST/createGroup/index.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7dc6a26-0390-4614-9d7e-bed0918b8914",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Student Associations",
+      "targets": [
+        ["linkText=Student Associations", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Student Associations')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/aboutBEST/studentAssociations/index.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0c086a4-a3b2-47d2-ad6e-74712e2e30bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=bonding",
+      "targets": [
+        ["linkText=bonding", "linkText"],
+        ["css=.col:nth-child(1) > a", "css:finder"],
+        ["xpath=//article[@id='content']/section/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'bonding.jsp')]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'bonding')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9149370b-888a-4603-9d70-651129358e85",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Canadian Federation of Engineering Students",
+      "targets": [
+        ["linkText=Canadian Federation of Engineering Students", "linkText"],
+        ["css=.col:nth-child(2) > a", "css:finder"],
+        ["xpath=//article[@id='content']/section/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cfes.jsp')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Canadian Federation of Engineering Students')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4201093f-d5c3-49c4-aca2-3f8337b22739",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Canadian Federation of Engineering Students",
+      "targets": [
+        ["linkText=Canadian Federation of Engineering Students", "linkText"],
+        ["css=.col:nth-child(2) > a", "css:finder"],
+        ["xpath=//article[@id='content']/section/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cfes.jsp')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Canadian Federation of Engineering Students')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e100128-6af6-4a51-ba4a-6a82cdc16d29",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Canadian Federation of Engineering Students",
+      "targets": [
+        ["linkText=Canadian Federation of Engineering Students", "linkText"],
+        ["css=.col:nth-child(2) > a", "css:finder"],
+        ["xpath=//article[@id='content']/section/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'cfes.jsp')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Canadian Federation of Engineering Students')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a5e884b-e8eb-4112-9c5b-57e4be5e0a66",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=AEGEE | European Students' Forum",
+      "targets": [
+        ["linkText=AEGEE | European Students' Forum", "linkText"],
+        ["css=.col:nth-child(3) > a", "css:finder"],
+        ["xpath=//article[@id='content']/section/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'aegee.jsp')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c3eb8a1-ab76-4a50-9a77-f6fa86684758",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=AEGEE | European Students' Forum",
+      "targets": [
+        ["linkText=AEGEE | European Students' Forum", "linkText"],
+        ["css=.col:nth-child(3) > a", "css:finder"],
+        ["xpath=//article[@id='content']/section/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'aegee.jsp')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4d9029d-b091-4b54-bcfc-98d8a5373ec6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=AEGEE | European Students' Forum",
+      "targets": [
+        ["linkText=AEGEE | European Students' Forum", "linkText"],
+        ["css=.col:nth-child(3) > a", "css:finder"],
+        ["xpath=//article[@id='content']/section/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'aegee.jsp')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f32191ea-6011-490e-9750-57935bdfbb89",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=European Students of Industrial Engineering and Management",
+      "targets": [
+        ["linkText=European Students of Industrial Engineering and Management", "linkText"],
+        ["css=.col:nth-child(4) > a", "css:finder"],
+        ["xpath=//article[@id='content']/section/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'estiem.jsp')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'European Students of Industrial Engineering and Management')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "deadd999-f9ac-4138-ae55-9d149754d25c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=European Students of Industrial Engineering and Management",
+      "targets": [
+        ["linkText=European Students of Industrial Engineering and Management", "linkText"],
+        ["css=.col:nth-child(4) > a", "css:finder"],
+        ["xpath=//article[@id='content']/section/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'estiem.jsp')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'European Students of Industrial Engineering and Management')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ba3bf0-d876-48e4-b941-d35a43a2ae6e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=European Students of Industrial Engineering and Management",
+      "targets": [
+        ["linkText=European Students of Industrial Engineering and Management", "linkText"],
+        ["css=.col:nth-child(4) > a", "css:finder"],
+        ["xpath=//article[@id='content']/section/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'estiem.jsp')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'European Students of Industrial Engineering and Management')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30cadeb9-36c3-4362-afa6-944111dad1e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Electrical Engineering Students' European Association",
+      "targets": [
+        ["linkText=Electrical Engineering Students' European Association", "linkText"],
+        ["css=.col:nth-child(5) > a", "css:finder"],
+        ["xpath=//article[@id='content']/section/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'eestec.jsp')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8f83df4-6c39-4c5f-a802-3a415625d28f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Board",
+      "targets": [
+        ["linkText=Board", "linkText"],
+        ["css=.navbar-nav > .menu-item:nth-child(7) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Board')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/aboutBEST/structure/boardCurrent.jsp')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15dc5c98-5123-4448-9615-0c34333d5713",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=XXXIV Board (2021-2022)",
+      "targets": [
+        ["linkText=XXXIV Board (2021-2022)", "linkText"],
+        ["css=.list-unstyled > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'XXXIV Board (2021-2022)')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'boardXXXIV.jsp')]", "xpath:href"],
+        ["xpath=//section/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'XXXIV Board (2021-2022)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3aa5922-e05f-466f-b955-6f46281b08c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=XXIX Board (2016-2017)",
+      "targets": [
+        ["linkText=XXIX Board (2016-2017)", "linkText"],
+        ["css=.list-unstyled > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'XXIX Board (2016-2017)')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'boardXXIX.jsp')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'XXIX Board (2016-2017)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68b3cf16-29ea-4a8f-9be1-0922e6b1d180",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=XXII Board (2009-2010)",
+      "targets": [
+        ["linkText=XXII Board (2009-2010)", "linkText"],
+        ["css=li:nth-child(14) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'XXII Board (2009-2010)')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/ul/li[14]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'boardXXII.jsp')]", "xpath:href"],
+        ["xpath=//li[14]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'XXII Board (2009-2010)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07765b01-39dc-450d-a707-4973e8dbd0e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=XVIII Board (2005-2006)",
+      "targets": [
+        ["linkText=XVIII Board (2005-2006)", "linkText"],
+        ["css=li:nth-child(18) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'XVIII Board (2005-2006)')]", "xpath:link"],
+        ["xpath=//aside[@id='sidebar']/section/div[2]/ul/li[18]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'boardXVIII.jsp')]", "xpath:href"],
+        ["xpath=//li[18]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'XVIII Board (2005-2006)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87560abb-f032-4bdd-9844-5de898870a94",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Press",
+      "targets": [
+        ["linkText=Press", "linkText"],
+        ["css=.navbar-nav > .menu-item:nth-child(8) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Press')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/aboutBEST/news.jsp')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1118c7ca-4c6f-4553-abf9-2c171ded3416",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact us",
+      "targets": [
+        ["linkText=Contact us", "linkText"],
+        ["css=.navbar-nav > .menu-item:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact us')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/helpdesk/helpdesk.jsp?from=wwwAboutBEST')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd58adc4-0a3c-487f-99d3-d41c1ef35de0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About BEST",
+      "targets": [
+        ["linkText=About BEST", "linkText"],
+        ["css=.main-navigation .active > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About BEST')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/aboutBEST')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About BEST')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed4674d3-e5c1-430f-b807-e042eabaa7ee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Local Groups",
+      "targets": [
+        ["linkText=Local Groups", "linkText"],
+        ["css=.container > .nav > .menu-item:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Local Groups')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav[3]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/aboutBEST/structure/lbgList.jsp')])[2]", "xpath:href"],
+        ["xpath=//nav[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e728f983-d6a1-4894-bcea-14f42a61c2b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-4:nth-child(1) span",
+      "targets": [
+        ["css=.col-xs-4:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='list']/section/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'LBG Aachen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "716341d9-0c2a-4cda-9ac2-3a17917dfde1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(13) img",
+      "targets": [
+        ["css=.col:nth-child(13) img", "css:finder"],
+        ["xpath=//img[@alt='Brno University of Technology']", "xpath:img"],
+        ["xpath=//div[@id='list']/section/div[13]/a/img", "xpath:idRelative"],
+        ["xpath=//div[13]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fac25fc-7e93-45f0-b0ac-5b56c65876ec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1696.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9daad6d0-9538-45ff-a0b5-2f7e9354865a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(29) img",
+      "targets": [
+        ["css=.col:nth-child(29) img", "css:finder"],
+        ["xpath=//img[@alt='Gdansk University of Technology']", "xpath:img"],
+        ["xpath=//div[@id='list']/section/div[29]/a/img", "xpath:idRelative"],
+        ["xpath=//div[29]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea62fbe7-f53d-4295-ba07-e23472d07d2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-brand > img",
+      "targets": [
+        ["css=.navbar-brand > img", "css:finder"],
+        ["xpath=//img[@alt='BEST logo']", "xpath:img"],
+        ["xpath=//header[@id='header']/nav/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "338140f5-f191-4d87-8f03-75b06857a27d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-brand > .hidden-md",
+      "targets": [
+        ["css=.text-brand > .hidden-md", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,' My account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b489fae-838d-4fcb-853c-6dbd06709897",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.text-brand > .hidden-md",
+      "targets": [
+        ["css=.text-brand > .hidden-md", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,' My account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a81e274f-4725-4e69-a5ae-3c29bdfbed71",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.text-brand > .hidden-md",
+      "targets": [
+        ["css=.text-brand > .hidden-md", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,' My account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5d82de6-4647-4bac-a7d4-823eb6b0ffd2",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.popover-content > #account-popover-not-logged-in .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='account-popover-not-logged-in']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b734eba-76c8-4a95-9c2c-aacb727500dc",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.popover-content > #account-popover-not-logged-in .form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='account-popover-not-logged-in']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98ae5765-08e4-4a33-b450-5b94f0b92899",
+      "comment": "",
+      "command": "click",
+      "target": "css=.news",
+      "targets": [
+        ["css=.news", "css:finder"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5454292-ae96-4273-a434-2ca2bdfecdbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.popover-content > #account-popover-not-logged-in .btn",
+      "targets": [
+        ["css=.popover-content > #account-popover-not-logged-in .btn", "css:finder"],
+        ["xpath=//input[@value='Log in']", "xpath:attributes"],
+        ["xpath=//div[@id='account-popover-not-logged-in']/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82beee0e-4ae9-4c62-b953-354307864e1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-brand > .hidden-md",
+      "targets": [
+        ["css=.text-brand > .hidden-md", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,' My account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25e7ad49-81ff-4b57-9184-5465dad22659",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.popover-content > #account-popover-not-logged-in a", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='account-popover-not-logged-in']/form/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/registration.jsp')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f49c1ee2-648b-455f-b3ba-d660dadb0daa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terms of Use",
+      "targets": [
+        ["linkText=Terms of Use", "linkText"],
+        ["css=.alert > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Terms of Use')]", "xpath:link"],
+        ["xpath=//article[@id='content']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/terms.jsp')]", "xpath:href"],
+        ["xpath=//article/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terms of Use')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dd2ed72-c5a2-41af-a59c-bc3937ddf673",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=password recovery page",
+      "targets": [
+        ["linkText=password recovery page", "linkText"],
+        ["css=.alert > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'password recovery page')]", "xpath:link"],
+        ["xpath=//article[@id='content']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/passwordRecovery.jsp')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'password recovery page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3e90b28-8c1e-4141-87cf-c3fa2ca665ef",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,413.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f365a3a3-9298-49a5-9aa0-c609e6492b2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pull-right > .btn",
+      "targets": [
+        ["css=.pull-right > .btn", "css:finder"],
+        ["xpath=//input[@value='I accept the terms of registration as given above']", "xpath:attributes"],
+        ["xpath=//article[@id='content']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27c5b3d0-5cb1-46f8-b605-5018005412a8",
+      "comment": "",
+      "command": "click",
+      "target": "name=person.gender",
+      "targets": [
+        ["name=person.gender", "name"],
+        ["css=.form-group:nth-child(8) > .col-sm-4:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//select[@name='person.gender']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Please select gender\nMale\nFemale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8baa2dc1-40b3-457c-a0ed-788eb5540f25",
+      "comment": "",
+      "command": "click",
+      "target": "name=person.gender",
+      "targets": [
+        ["name=person.gender", "name"],
+        ["css=.form-group:nth-child(8) > .col-sm-4:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//select[@name='person.gender']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Please select gender\nMale\nFemale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cadc2e2-2a70-42d9-bd1a-271b7e4d7e9e",
+      "comment": "",
+      "command": "click",
+      "target": "name=person.citizenship",
+      "targets": [
+        ["name=person.citizenship", "name"],
+        ["css=.form-group:nth-child(9) .form-control", "css:finder"],
+        ["xpath=//select[@name='person.citizenship']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[4]/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdd10116-30d7-43cc-bd63-d66bc95bb345",
+      "comment": "",
+      "command": "click",
+      "target": "name=person.citizenship",
+      "targets": [
+        ["name=person.citizenship", "name"],
+        ["css=.form-group:nth-child(9) .form-control", "css:finder"],
+        ["xpath=//select[@name='person.citizenship']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[4]/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cb925d2-a7a1-4952-8c66-40f024ac82e0",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=person.citizenship",
+      "targets": [
+        ["name=person.citizenship", "name"],
+        ["css=.form-group:nth-child(9) .form-control", "css:finder"],
+        ["xpath=//select[@name='person.citizenship']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[4]/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3733eac5-3f1a-4d3d-84e4-8facdd49bb37",
+      "comment": "",
+      "command": "click",
+      "target": "id=person.email_form1",
+      "targets": [
+        ["id=person.email_form1", "id"],
+        ["name=person.email", "name"],
+        ["css=#person\\.email_form1", "css:finder"],
+        ["xpath=//input[@id='person.email_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1000ca26-8352-4e7b-a016-0d00913c5f8d",
+      "comment": "",
+      "command": "click",
+      "target": "id=person.name_form1",
+      "targets": [
+        ["id=person.name_form1", "id"],
+        ["name=person.name", "name"],
+        ["css=#person\\.name_form1", "css:finder"],
+        ["xpath=//input[@id='person.name_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74953a32-c6d4-4d9e-a994-ee778d65659f",
+      "comment": "",
+      "command": "click",
+      "target": "id=person.surname_form1",
+      "targets": [
+        ["id=person.surname_form1", "id"],
+        ["name=person.surname", "name"],
+        ["css=#person\\.surname_form1", "css:finder"],
+        ["xpath=//input[@id='person.surname_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af149ad1-aea2-4fcc-842b-a48bd37391c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=person.birthdate_0_form1",
+      "targets": [
+        ["id=person.birthdate_0_form1", "id"],
+        ["name=person.birthdate_0", "name"],
+        ["css=#person\\.birthdate_0_form1", "css:finder"],
+        ["xpath=//select[@id='person.birthdate_0_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b73dfea4-7df9-4539-8dd9-5f970b729fc2",
+      "comment": "",
+      "command": "click",
+      "target": "id=person.birthdate_0_form1",
+      "targets": [
+        ["id=person.birthdate_0_form1", "id"],
+        ["name=person.birthdate_0", "name"],
+        ["css=#person\\.birthdate_0_form1", "css:finder"],
+        ["xpath=//select[@id='person.birthdate_0_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "129372ac-5c2d-481c-b94d-743fba8d7010",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=person.birthdate_0_form1",
+      "targets": [
+        ["id=person.birthdate_0_form1", "id"],
+        ["name=person.birthdate_0", "name"],
+        ["css=#person\\.birthdate_0_form1", "css:finder"],
+        ["xpath=//select[@id='person.birthdate_0_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6648d1f4-20ed-44d7-9035-2c60b9bbeb96",
+      "comment": "",
+      "command": "click",
+      "target": "id=person.birthdate_1_form1",
+      "targets": [
+        ["id=person.birthdate_1_form1", "id"],
+        ["name=person.birthdate_1", "name"],
+        ["css=#person\\.birthdate_1_form1", "css:finder"],
+        ["xpath=//select[@id='person.birthdate_1_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div[2]/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "449cf773-3728-4567-9caa-2fbcb9a4e249",
+      "comment": "",
+      "command": "click",
+      "target": "id=person.birthdate_1_form1",
+      "targets": [
+        ["id=person.birthdate_1_form1", "id"],
+        ["name=person.birthdate_1", "name"],
+        ["css=#person\\.birthdate_1_form1", "css:finder"],
+        ["xpath=//select[@id='person.birthdate_1_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div[2]/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0df75c8b-92ab-475a-93ee-f6d54a23e07a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=person.birthdate_1_form1",
+      "targets": [
+        ["id=person.birthdate_1_form1", "id"],
+        ["name=person.birthdate_1", "name"],
+        ["css=#person\\.birthdate_1_form1", "css:finder"],
+        ["xpath=//select[@id='person.birthdate_1_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div[2]/select[2]", "xpath:idRelative"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfbec360-2300-4667-9b9b-425bb716344a",
+      "comment": "",
+      "command": "click",
+      "target": "id=person.birthdate_2_form1",
+      "targets": [
+        ["id=person.birthdate_2_form1", "id"],
+        ["name=person.birthdate_2", "name"],
+        ["css=#person\\.birthdate_2_form1", "css:finder"],
+        ["xpath=//input[@id='person.birthdate_2_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85528d8d-93c5-4ba0-9004-6112d52a5530",
+      "comment": "",
+      "command": "click",
+      "target": "id=person.birthdate_2_form1",
+      "targets": [
+        ["id=person.birthdate_2_form1", "id"],
+        ["name=person.birthdate_2", "name"],
+        ["css=#person\\.birthdate_2_form1", "css:finder"],
+        ["xpath=//input[@id='person.birthdate_2_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba45e0c2-0fbc-4b0f-ac21-4666e50400a1",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=person.birthdate_2_form1",
+      "targets": [
+        ["id=person.birthdate_2_form1", "id"],
+        ["name=person.birthdate_2", "name"],
+        ["css=#person\\.birthdate_2_form1", "css:finder"],
+        ["xpath=//input[@id='person.birthdate_2_form1']", "xpath:attributes"],
+        ["xpath=//form[@id='_form1']/div[3]/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1af0c2fd-4c8e-44d7-8a53-0fa623a78581",
+      "comment": "",
+      "command": "click",
+      "target": "css=#page > .row",
+      "targets": [
+        ["css=#page > .row", "css:finder"],
+        ["xpath=//section[@id='page']/div", "xpath:idRelative"],
+        ["xpath=//section/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4238d781-d548-4870-9168-6a1ae2e58f4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-brand > img",
+      "targets": [
+        ["css=.navbar-brand > img", "css:finder"],
+        ["xpath=//img[@alt='BEST logo']", "xpath:img"],
+        ["xpath=//header[@id='header']/nav/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f030bb37-745f-44f6-9389-4f06a5551b13",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn more",
+      "targets": [
+        ["linkText=Learn more", "linkText"],
+        ["css=.btn-default:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn more')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/aboutBEST')])[3]", "xpath:href"],
+        ["xpath=//section[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn more')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "879195fc-ab2b-478b-adc8-2fe165dcf3df",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Statement about war in Ukraine",
+      "targets": [
+        ["linkText=Statement about war in Ukraine", "linkText"],
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Statement about war in Ukraine')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ukraine')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Statement about war in Ukraine')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "078220bf-bfc5-4b15-871e-8574d8f4ef10",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Donate, sign petitions, and join protests",
+      "targets": [
+        ["linkText=Donate, sign petitions, and join protests", "linkText"],
+        ["css=a:nth-child(17)", "css:finder"],
+        ["xpath=//a[contains(text(),'Donate, sign petitions, and join protests')]", "xpath:link"],
+        ["xpath=//section[@id='page']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://supportukrainenow.org/')]", "xpath:href"],
+        ["xpath=//section/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Donate, sign petitions, and join protests')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "207274fc-8351-4f78-a498-6b3b1b296f88",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Donate, sign petitions, and join protests",
+      "targets": [
+        ["linkText=Donate, sign petitions, and join protests", "linkText"],
+        ["css=a:nth-child(17)", "css:finder"],
+        ["xpath=//a[contains(text(),'Donate, sign petitions, and join protests')]", "xpath:link"],
+        ["xpath=//section[@id='page']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://supportukrainenow.org/')]", "xpath:href"],
+        ["xpath=//section/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Donate, sign petitions, and join protests')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cec6fc47-ae12-459d-9163-d20cf9ee5728",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Donate, sign petitions, and join protests",
+      "targets": [
+        ["linkText=Donate, sign petitions, and join protests", "linkText"],
+        ["css=a:nth-child(17)", "css:finder"],
+        ["xpath=//a[contains(text(),'Donate, sign petitions, and join protests')]", "xpath:link"],
+        ["xpath=//section[@id='page']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://supportukrainenow.org/')]", "xpath:href"],
+        ["xpath=//section/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Donate, sign petitions, and join protests')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d546d18f-ba36-4d00-b8a3-38d50243607b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Use and spread reliable sources of information",
+      "targets": [
+        ["linkText=Use and spread reliable sources of information", "linkText"],
+        ["css=a:nth-child(19)", "css:finder"],
+        ["xpath=//a[contains(text(),'Use and spread reliable sources of information')]", "xpath:link"],
+        ["xpath=//section[@id='page']/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://supportukrainenow.org/')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Use and spread reliable sources of information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ffa3e13-89e2-472d-9f16-2f73ec568250",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) > img",
+      "targets": [
+        ["css=a:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='Donate Now']", "xpath:img"],
+        ["xpath=//footer[@id='colophon']/div/a/img", "xpath:idRelative"],
+        ["xpath=//footer/div/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1937",
+      "windowTimeout": 2000
+    }, {
+      "id": "f494833c-d60c-4783-824d-8e42035b1507",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1937}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ae0d16d-1632-402b-bbc9-d069e61146c7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daf90098-005a-45de-bf0f-cf13862d808d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "36a32747-e322-493a-aba4-35b3fde31903",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["18647601-0059-4e84-a9af-ab63f39d1d0e"]
+  }],
+  "urls": ["https://www.best.eu.org/"],
+  "plugins": []
+}
