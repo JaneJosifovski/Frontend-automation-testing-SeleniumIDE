@@ -4,7 +4,7 @@ Welcome to my SeleniumIDE QA Portfolio! This repository contains a collection of
 
 ## Introduction
 
-As a Quality Assurance tester, I am always looking for ways to improve my testing skills and make the testing process more efficient. That's why I started using SeleniumIDE to generate automation scripts for web testing. The scripts in this portfolio demonstrate my proficiency in using SeleniumIDE to test a variety of web applications.
+As a Quality Assurance tester, I am always looking for ways to improve my testing skills and make the testing process more efficient. That's why I started using SeleniumIDE to generate automation scripts for web testing. The scripts in this portfolio demonstrate my proficiency in using SeleniumIDE to test a variety of web applications. To test out these tests you would need SeleniumIDE (an extention for Chrome and Firefox), or go with the longer route by using an IDE with lauching Selenium and etc.
 
 ## Getting Started
 
